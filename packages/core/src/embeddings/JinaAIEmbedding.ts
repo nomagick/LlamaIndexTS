@@ -25,6 +25,6 @@ export class JinaAIEmbedding extends OpenAIEmbedding {
       model,
       ...rest,
     });
-    delete this.dimentions;
+    delete this.dimensions;
   }
 }
